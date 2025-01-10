@@ -13,7 +13,7 @@ def index(request):
             
             # Ensure the query string is correctly formatted without spaces
             source = urllib.request.urlopen(
-                f'http://api.openweathermap.org/data/2.5/weather?q={city}&appid=xxxxxxxxxxxxxxxxxxx'
+                f'http://api.openweathermap.org/data/2.5/weather?q={city}&appid=xxxxxxxxxxxxxxxxx'
             ).read()
 
             #USE UR OWN API KEY......
